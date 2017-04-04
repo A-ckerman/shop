@@ -1,0 +1,17 @@
+.product-item{
+    width:30.333%;
+    padding:5px;
+    border:1px solid red;
+    box-sizing:border-box;
+    margin:25px auto;
+}
+.product-item img{
+    width:100%;
+}
+.product-item span{
+    display:block;
+    margin-bottom:10px;
+}
+.sales{
+    float:right;
+}

@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.login{
+    margin:10px 0;
+}
+.login a{
+    color:gray;
+    margin:0 5px;
+}
+.login a:hover{
+    color:red;
+}
+.container{
+    width:900px;
+    margin:0 auto;
+}
+nav{
+    margin:20px 0;
+}
+.nav li{
+    float:left;
+    width:120px;
+    height:30px;
+    margin:0 20px;
+    background-color:#999;
+    text-align:center;
+    line-height:30px;
+}
+.nav li:hover{
+    background-color:#04569a;
+}
+.nav li:first-child{
+    margin-left:160px;
+}
+.nav li a{
+    display:inline-block;
+    color:#fff;
+    width:120px;
+}
+.nav .active{
+    background-color:#04569a;
+}
+/*伪类清浮动*/
+.clearfix:after{
+    display:block;
+    content:'';
+    height:0;
+    clear: both;
+    visibility: hidden;
+}
+
+footer{
+    text-align: center;
+}
+

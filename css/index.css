@@ -1,0 +1,52 @@
+.product{
+    width:70%;
+    float:left;
+    box-sizing: border-box;
+}
+.product-item{
+    float:left;
+    width:30.333%;
+    margin-right:3%;
+    padding:5px;
+    border:1px solid red;
+    box-sizing:border-box;
+    margin-bottom:25px;
+}
+.product-item img{
+    width:100%;
+}
+.product-item span{
+    display:block;
+    margin-bottom:10px;
+}
+.sales{
+    float:right;
+}
+.aside{
+    width:30%;
+    float:left;
+}
+.aside dl{
+    margin:20px 0;
+}
+.aside dl dt,.aside dl dd{
+    float:left;
+}
+.aside dl dt{
+    width:30%;
+}
+.aside dl dt img{
+    width:100%;
+}
+.aside dl dd{
+    width:70%;
+}
+.aside dl dd span{
+    margin-top:10px;
+    display:block;
+    font-family:"Microsoft YaHei";
+    text-align:center;
+}
+.price{
+    font-weight: bold;
+}
